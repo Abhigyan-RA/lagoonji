@@ -348,7 +348,10 @@ p {
 
   .hiring-text{
     /* border: 2px solid black !important;  */
-     border-radius: 7px !important; 
+     /* border-radius: 5px !important;  */
+     border-top-left-radius:5px !important ;
+     border-bottom-left-radius:5px !important ;
+
   }
   .hiring-text {
     border: #004838 !important; /* Force override */
@@ -544,7 +547,7 @@ p {
     margin: 3px 0px 0px 12px !important;
   }
   .flag {
-    right: -14px !important;
+    right: -21px !important;
   }
   .text-for {
     margin-left: 0 !important;
@@ -557,7 +560,9 @@ p {
 
 @media (max-width: 450px) {
   .you-img {
-    height: 15px !important;
+    height: 21px !important;
+    margin-top: 0.1rem;
+    /* margin-left: 10px !important; */
   }
   .fontimg {
     height: 23px !important;
